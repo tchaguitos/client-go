@@ -171,13 +171,13 @@ you care about backwards compatibility.
 To get the latest version, use go1.16+ and fetch using the `go get` command. For example:
 
 ```
-go get k8s.io/client-go@latest
+go install k8s.io/client-go@latest
 ```
 
 To get a specific version, use go1.11+ and fetch the desired version using the `go get` command. For example:
 
 ```
-go get k8s.io/client-go@v0.20.4
+go install k8s.io/client-go@v0.20.4
 ```
 
 See [INSTALL.md](/INSTALL.md) for detailed instructions and troubleshooting.
